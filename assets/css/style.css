@@ -1,97 +1,52 @@
-/* body{
-    background-image: url("./assets/images/4.jpg") no-repeat fixed center; 
-    background-color: aqua;
-} */
-/* .body { 
-    background-image: url(.\assets\images\BG-2.jpg);
+
+  body { 
+    background-image: url(./../images/BG-1.jpg);
     background-repeat: no-repeat, repeat;
     background-size: 100% 100%;
     overflow: auto;
     z-index: -1px; 
-  } */
-  
-  /* body { 
-   
+    color: aliceblue;
     
-    background-color: #d3d1d8;
-    background-repeat: no-repeat, repeat;
-    background-size: 100% 100%;
-    overflow: auto;
-    z-index: -1px;
-    
-  } */
-
+  }
  
+  
  
   .container{
     background-repeat: no-repeat, repeat;
-    /* width: 640px; */
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
   
   }
-  .website-header{
-    color: rgb(52, 52, 161); 
+  .website-header {
+  
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 35px;
-    /* background-color: #8f51c957; */
-    /* height: 100px; */
     text-align: center;
     line-height: 3em;
+    background-color: rgb(40, 100, 189); 
+    
   }
   .navbar {
      
-    /* color: rgb(245, 244, 244); */
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
-    /* background-color: rgb(98, 173, 192); */
-    /* height: 80px; */
     text-align: center;
-    /* line-height: 4em; */
   }
   
-  
-  /* .Overview{
-    /* background-color: rgb(98, 173, 192); */
-    /* color: black; */
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-size: 18px; */
-    /* line-height: 1.6em; */
-    /* margin: 20px; */
-    /* margin-bottom: 150px; */
-    /* border: 3px double black; }*/
-   
-    
-    
-
-  /* .img{
-    width: auto;
-    width: 500px;
-    margin: 40px;
-    max-width: 100%; height: auto;
-  } */
   
   a:hover {
     color: black;
     padding-left: 10px;
-    
-    /* background-color: rgb(52, 52, 161); */
-    /* background-position: 0 -11px; */
-    /* background-repeat: no-repeat; */
     color: rgb(52, 52, 161);
    
     }
   .footer{
-    color: rgb(31, 30, 30);
+    color: rgb(175, 174, 174);
     font-weight: no-bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 15px;
-    /* background-color: rgb(68, 80, 83); */
-    /* height: 80px; */
-     /* border: 5px;  */
-    /* border-top-color: aqua; */
     text-align: center;
   
   }
@@ -125,58 +80,18 @@
     
   } 
   
-  h1, h2, h3{
+  h1, h2, h3, p{
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(139, 137, 137);
+    color: rgb(155, 146, 146);
   }
     
   .Contact{
-    color: black;
+
+    color: white;
     font-weight: bold;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
     margin-bottom: 150px;
-    border: 3px black;
-background-color: rgb(139, 197, 224)
-    
+     
   }
-  
-  /*
-  a{
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #000;
-    text-decoration: none;
-  
-  
-  }
-  a:hover{
-    color:red;
-  }
-  a:active{
-    color: green;
-  }
-  a{padding: 10px;}
-  
-  
-  
-  .contactme{
-    padding: 20px;
-  }
-  .contactme .contactinfo{
-    padding-bottom: 15px;
-  }
-  .contactme lable{
-    display: block;
-  }
-  .contactme input[type="text"], .contactme textarea
-  {
-    padding: 10px;
-    width: 80%;
-  
-  }
-  
-    
-    
-  */
-  
